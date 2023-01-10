@@ -39,4 +39,4 @@ else:
 import constant_meanings
 
 print ('You got ' + str(score) + ' questions correct!')
-print ('You got ' + str((score/constant_meanings.questions) * 100) + '%') # Make constant there
+print ('You got ' + str((score/constant_meanings.questions) * 100) + '%') # Make constant there <-- done :p
