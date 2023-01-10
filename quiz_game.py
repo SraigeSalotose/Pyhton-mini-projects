@@ -1,3 +1,5 @@
+import constant_meanings
+
 print('Welcome to my computer quiz!')
 
 playing = input('Do you want to play? ')
@@ -35,8 +37,6 @@ if answer.lower() == "power supply":
     score += 1
 else:
     print('Incorrect!')
-
-import constant_meanings
 
 print ('You got ' + str(score) + ' questions correct!')
 print ('You got ' + str((score/constant_meanings.questions) * 100) + '%') # Make constant there <-- done :p
