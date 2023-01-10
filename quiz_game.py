@@ -36,5 +36,7 @@ if answer.lower() == "power supply":
 else:
     print('Incorrect!')
 
+import constant_meanings
+
 print ('You got ' + str(score) + ' questions correct!')
-print ('You got ' + str((score/4) * 100) + '%') # Make constant there
+print ('You got ' + str((score/constant_meanings.questions) * 100) + '%') # Make constant there
