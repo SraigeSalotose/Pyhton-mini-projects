@@ -17,7 +17,7 @@ if answer.lower() == "central processing unit":
 else:
     print('Incorrect!')
 
-answer = input("What does GPU stand for? ")
+answer = input("What does GPU stand fosr? ")
 if answer.lower() == "graphics processing unit":
     print('Correct!')
     score += 1
